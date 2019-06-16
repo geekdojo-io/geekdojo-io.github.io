@@ -3,6 +3,34 @@ layout: post
 title: Practice Tree Data Structure
 ---
 
+## Review - HashTable and Dictionary
+
+1. https://leetcode.com/problems/jewels-and-stones
+2. https://leetcode.com/problems/palindrome-permutation
+
+##### Sample answer for Jewelry
+* Concept: sum
+* python one liners
+* tenery operator in python
+
+```py
+class Solution(object):
+    def numJewelsInStones(self, J, S):
+        letters = set(J)
+        return sum(1 if c in letters else 0 for c in S)
+```
+
+##### Sample answer for Palindrome Permutation
+
+```py
+from collections import Counter
+
+class Solution(object):
+    def canPermutePalindrome(self, s):
+        count = Counter(s)
+        return sum(1 if count[key] % 2 == 1 else 0 for key in count) <= 1        
+```
+
 ## Binary Tree and Binary Search Tree
 
 ### Let's Practice!
@@ -102,3 +130,7 @@ def lca(root, v1, v2):
         else:
             return root
 ```
+
+### More tree problems
+
+* https://leetcode.com/problems/range-sum-of-bst/
