@@ -3,6 +3,8 @@ layout: post
 title: Practice Tree Data Structure
 ---
 
+## Binary Tree and Binary Search Tree
+
 ### Let's Practice!
 
 
