@@ -24,6 +24,7 @@ class Calculator:
       
   def clearHistory():
     self.history = []
+    print('Successfully cleared history')
   
 calc = Calculator()  
 while True:
