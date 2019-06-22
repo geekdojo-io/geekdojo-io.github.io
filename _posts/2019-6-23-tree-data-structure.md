@@ -14,15 +14,18 @@ class Calculator:
   def __init__(self):
     self.history = []
     
-  def calculate(s):
-    self.history.append(s)
-    print(eval(s))
+  def calculate(self, s):
+    res = '{}={}'.format(s, eval(s))
+    print(res)
+    self.history.append(res)
     
-  def showHistory():
+  def showHistory(self):
+    if not self.history:
+      print('There is no history')
     for s in self.history:
       print(s)
       
-  def clearHistory():
+  def clearHistory(self):
     self.history = []
     print('Successfully cleared history')
   
