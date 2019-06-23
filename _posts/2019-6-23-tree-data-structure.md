@@ -7,7 +7,7 @@ title: Practice Tree Data Structure
 
 ### Class
 
-#### Class
+#### Example: Calculator
 ```py
 
 class Calculator:
@@ -44,6 +44,33 @@ while True:
 
 
 ```
+
+### Example: Car
+
+```py
+class Car:
+    def __init__(self, name):
+        self.name = name
+        self.x = 0
+        self.y = 0
+
+    def move(self):
+        self.x += 5
+        print(self.name, self.x)
+
+my_car = Car('My Car')
+your_car = Car('Your Car')
+while True:
+    cmd = input().strip()
+    if cmd == 'q':
+        break
+    if cmd == 'my':
+        my_car.move()
+    if cmd == 'your':
+        your_car.move()
+```
+
+
 
 #### Constructor
 ```py
