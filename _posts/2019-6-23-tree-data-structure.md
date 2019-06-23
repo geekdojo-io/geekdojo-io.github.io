@@ -56,7 +56,6 @@ while True:
 
 ### Let's Practice!
 
-
 1. [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)
 2. [Tree: Postorder Traversal](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem)
 3. [Tree: Inorder Traversal](https://www.hackerrank.com/challenges/tree-inorder-traversal/problem)
@@ -155,3 +154,6 @@ def lca(root, v1, v2):
 ### More tree problems
 
 * https://leetcode.com/problems/range-sum-of-bst/
+
+### Java
+- https://www.hackerrank.com/challenges/welcome-to-java/problem
