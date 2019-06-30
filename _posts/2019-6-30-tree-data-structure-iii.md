@@ -183,6 +183,32 @@ stack.pop()
 stack.pop()
 ```
 
+##### Question
+Remove duplicates from a string.
+<pre>
+<b>Example 1:</b>
+Input: geekdojo
+
+Output: gekdojo
+
+<b>Example 2:</b>
+Input: aaaabbbbcccc
+
+Output: abc
+
+</pre>
+
+##### Answer (using Stack)
+```py
+def dedupe(s):
+  stack = []
+  for c in s:
+    if stack and stack[-1] == c:
+      continue
+    stack.append(c)
+  return ''.join(stack)
+```
+
 #### Queue (First In First Out - FIFO)
 ```py
 from collections import deque
