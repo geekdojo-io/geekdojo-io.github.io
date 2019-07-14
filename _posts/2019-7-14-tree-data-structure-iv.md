@@ -1,3 +1,7 @@
+---
+layout: post
+title: Practice Tree Data Structure
+---
 
 
 ### Tree Recursion
