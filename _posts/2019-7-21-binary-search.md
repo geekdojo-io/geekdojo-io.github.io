@@ -27,9 +27,9 @@ title: Practice Tree Data Structure and Binary Search
 - [531. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
 
 ### Note:
-https://www.hackerrank.com/topics/binary-search
-https://leetcode.com/tag/binary-search/
-https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/
-https://www.interviewbit.com/courses/programming/topics/binary-search/#problems
-https://www.geeksforgeeks.org/tag/binary-search/
+- https://www.hackerrank.com/topics/binary-search
+- https://leetcode.com/tag/binary-search/
+- https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/
+- https://www.interviewbit.com/courses/programming/topics/binary-search/#problems
+- https://www.geeksforgeeks.org/tag/binary-search/
 
