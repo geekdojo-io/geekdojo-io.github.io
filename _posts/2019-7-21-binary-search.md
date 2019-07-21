@@ -7,6 +7,14 @@ title: Practice Tree Data Structure and Binary Search
 ### Tree Recursion
 
 ### Tree practice (Review)
+- Create a tree class (IDLE)
+- Create a tree
+<pre>
+         5
+       /   \
+      6     10
+</pre>
+
 - [Pre-order](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)
 - [Post-order](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem)
 - [In-order](https://www.hackerrank.com/challenges/tree-inorder-traversal)
