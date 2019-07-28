@@ -3,6 +3,49 @@ layout: post
 title: Practice Tree Data Structure and Binary Search
 ---
 
+### Review on Iterations
+
+#### Iteration
+Let's generate a list with 10 random values
+```py
+>>> import random
+>>> A = [random.randint(0,10) for _ in range(10)]
+[1, 10, 7, 7, 3, 2, 2, 0, 5, 3]
+```
+
+Iterate through values - three different ways
+1. Using *range*
+```py
+>>> for i in range(len(A)):
+        print(A[i], end=' ')
+```
+
+2. Using *in*
+```py
+>>> for num in A:
+        print(num, end=' ')
+```
+
+3. Using *enumerate*
+```py
+>>> for i, num in enumerate(A):
+        print(i, num)
+```
+
+
+3.1. Using *enumerate* with 1 as a starting index
+```py
+>>> for i, num in enumerate(A, 1):
+        print(i, num)
+```
+
+#### Reverse Iteration
+```py
+>>> for i in reversed(range(len(A))):
+        print(i, end=' ')
+```
+
+Reverse using step as -1
 
 ### Tree Recursion
 
