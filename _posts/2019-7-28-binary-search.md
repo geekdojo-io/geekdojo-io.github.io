@@ -46,6 +46,45 @@ Iterate through values - three different ways
 ```
 
 Reverse using step as -1
+```py
+>>> for i in range(10, -1, -1):
+        print(i, end=' ')
+```
+
+#### Sorting
+```py
+>>> A = [(1, 2), (7, 5), (2, 4), (3, 6)]
+>>> A.sort()
+```
+
+```py
+>>> A = [(1, 2), (7, 5), (2, 4), (3, 6)]
+>>> B = sorted(A)
+```
+
+##### Reversed sort
+
+```py
+>>> A = [(1, 2), (7, 5), (2, 4), (3, 6)]
+>>> A.sort(reverse=True)
+```
+
+```py
+>>> A = [(1, 2), (7, 5), (2, 4), (3, 6)]
+>>> B = sorted(A, reverse=True)
+```
+
+##### Custom Sort
+
+```py
+[[1, 3], [1, 4], [2, 4], [3, 6], [4, 2], [7, 5]]
+>>> A.sort(key=lambda x: x[1])
+```
+
+```py
+A = ['aba', 'ABA', 'James', 'john', 'Andrew', 'lewis', 'Sol', 'Ben', 'Soo', 'jason']
+A.sort(key=lambda s: s.lower())
+```
 
 ### Tree Recursion
 
