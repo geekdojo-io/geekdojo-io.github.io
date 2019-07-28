@@ -113,7 +113,7 @@ A.sort(key=lambda s: s.lower())
 
 ### More tree problems
 - [938. Range Num of BST](https://leetcode.com/problems/range-sum-of-bst/)
-- [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)
+- [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) - DFS and BFS
 - [531. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
 
 ### Note:
