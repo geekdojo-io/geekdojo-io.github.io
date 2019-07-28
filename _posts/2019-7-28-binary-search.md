@@ -3,6 +3,11 @@ layout: post
 title: Practice Tree Data Structure and Binary Search
 ---
 
+### Review of Binary Search
+#### Practice
+- [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+
+
 ### Review on Iterations
 
 #### Iteration
@@ -85,6 +90,11 @@ Reverse using step as -1
 A = ['aba', 'ABA', 'James', 'john', 'Andrew', 'lewis', 'Sol', 'Ben', 'Soo', 'jason']
 A.sort(key=lambda s: s.lower())
 ```
+
+##### Practice Sorting
+
+- [2Sum](https://leetcode.com/problems/two-sum/)
+- [3Sum](https://leetcode.com/problems/3sum/)
 
 ### Tree Recursion
 
