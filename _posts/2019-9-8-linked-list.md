@@ -10,6 +10,9 @@ title: Practice Linked List
 - Revisit a problem and solve again
 
 ### Review of Linked List
+
+[HackerRank video](https://www.youtube.com/watch?v=njTh_OwMljA)
+
 ```py
 class Node:
   def __init__(self, x):
@@ -109,6 +112,39 @@ class Solution:
         return slow
 ```        
 
+### Explore - Linked List Cycle
+
+[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+#### Approach 1 - Hash Table
+```py
+
+class Solution:
+    def hasCycle(self, head: ListNode) -> bool:
+        seen = set()
+        cur = head
+        while cur:
+            if cur in seen:
+                return True
+            seen.add(cur)
+            cur = cur.next
+        return False
+```        
+
+
+#### Approach 2 - Two Poiners
+```py
+
+class Solution:
+    def hasCycle(self, head: ListNode) -> bool:
+        slow = fast = head
+        while slow and fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
+```
 
 
 ### Review of Binary Search
