@@ -1,7 +1,12 @@
 ---
 layout: post
-title: Practice Linked List
+title:Programming Challenges Week 14 - Practice Linked List
 ---
+
+### CodingBat
+- Go to (CodingBat.com)[https://www.codingbat.com/python] and create an accoutn and log into the website.
+- Start to solve problems. If you are new, the [Warmup-1](https://codingbat.com/python/Warmup-1) is a good place to start.
+- Let's solve problems in the CodingBat.com website for 45 minutes.
 
 ### Review of LeetCode
 
