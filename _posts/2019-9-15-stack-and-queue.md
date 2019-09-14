@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Programming Challenges Week 15 - Practice Linked List
+title:Programming Challenges Week 15 - Practice Linked List and Stack
 ---
 
 ### CodingBat
@@ -41,11 +41,21 @@ class Solution:
         return False
 ```
 
+#### LinkedList - Summary
+
+- Two Pointers (Fast & Slow)
+- Iterate
+- Reverse
+
 ### Stack
 
-#### HackerRank and LeetCode problems
+#### LeetCode problems
 
-##### Minimum Stack
+https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1394/
+
+##### (Minimum Stack)[https://leetcode.com/problems/min-stack/]
+
+##### (Valid Parenthesis)[https://leetcode.com/problems/valid-parentheses/]
 
 ##### Daily temperature
 
