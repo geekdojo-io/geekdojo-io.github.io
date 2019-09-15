@@ -41,11 +41,19 @@ class Solution:
         return False
 ```
 
+#### LinkedList - Explore
+
 #### LinkedList - Summary
 
 - Two Pointers (Fast & Slow)
 - Iterate
 - Reverse
+
+#### HackerRank
+
+- Python
+
+https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&filters%5Bsubdomains%5D%5B%5D=py-sets&filters%5Bsubdomains%5D%5B%5D=py-collections&badge_type=python
 
 ### Stack
 
