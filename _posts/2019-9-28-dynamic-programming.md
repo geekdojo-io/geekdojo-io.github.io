@@ -94,3 +94,61 @@ def fib(n):
   ```
 - Time complexity: O(N)
 - Space complexity: O(1)
+
+---
+### Practice
+
+1. Clothes - https://www.cs.plu.edu/~blahakd/HSProgrammingContest/Contest2019/ProblemsNovice2019.pdf 
+
+#### Soluton
+1.in
+```py
+2
+6
+mario logo (shirt)
+red (pants)
+hawaiian (shirt)
+baggy (pants)
+white (socks)
+fancy (socks)
+10
+khaki (pants)
+blueish green (shirt)
+apple (shirt)
+bright (socks)
+blue (pants)
+red (pants)
+purple (socks)
+ugly (shirt)
+stupid (socks)
+big red (pants)
+```
+
+
+main.py
+```py
+f = open('1.in','r')
+T = int(f.readline())
+for _ in range(T):
+  n = int(f.readline())
+  stack1, stack2, stack3 = [], [], []
+  for _ in range(n):
+    s = f.readline().strip()
+    x = s.find('(shirt)')
+    if x != -1:
+      stack1.append(s[:x-1])
+      continue
+    x = s.find('(pants)')
+    if x != -1:
+      stack2.append(s[:x-1])
+      continue
+    x = s.find('(socks)')
+    if x != -1:
+      stack3.append(s[:x-1])
+      continue
+  
+  while stack1 and stack2 and stack3:
+    print('{}, {}, {}'.format(stack1.pop(), stack2.pop(), stack3.pop()))
+  print('')
+```  
+```
