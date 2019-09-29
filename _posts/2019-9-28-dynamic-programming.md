@@ -9,10 +9,11 @@ title:Programming Challenges Week 17 - Dynamic Programming
 
 ### Dynamic Programming
 
-##### Recursion - Fibonacci number
+#### Fibonacci number
 - https://www.mathsisfun.com/numbers/fibonacci-sequence.html
 - https://en.wikipedia.org/wiki/Fibonacci_number
 
+##### Top-to-bottom Recursion
 ```py
 def fib(n):
   global cnt
