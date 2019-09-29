@@ -151,7 +151,7 @@ for _ in range(T):
     print('{}, {}, {}'.format(stack1.pop(), stack2.pop(), stack3.pop()))
   print('')
 ```  
-```
+
 
 4. Tic-Tac-Toe (https://teamscode.com/assets/docs/spring_2019_bhs/problem_set.pdf)
 
