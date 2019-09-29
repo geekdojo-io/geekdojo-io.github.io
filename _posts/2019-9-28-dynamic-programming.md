@@ -102,7 +102,7 @@ def fib(n):
 
 #### Soluton
 1.in
-```py
+```
 2
 6
 mario logo (shirt)
@@ -151,4 +151,50 @@ for _ in range(T):
     print('{}, {}, {}'.format(stack1.pop(), stack2.pop(), stack3.pop()))
   print('')
 ```  
+```
+
+4. Tic-Tac-Toe (https://teamscode.com/assets/docs/spring_2019_bhs/problem_set.pdf)
+
+#### Solution
+1.in
+```
+3
+X O O
+X X O
+O O X
+
+O X O
+X O X
+X O X
+
+O O X
+O X X
+O X O
+```
+
+main.py
+```py
+def check(A):
+  for row in A:
+    if len(set(row)) == 1:
+      return row[0]
+  for col in zip(*A):
+    if len(set(col)) == 1:
+      return col[0]
+  if len(set([A[i][i] for i in range(3)])) == 1:
+    return A[0][0]
+  if len(set([A[i][~i] for i in range(3)])) == 1:
+    return A[0][-1]
+  return 'Neither'
+
+f = open('1.in', 'r')
+T = int(f.readline())
+for _ in range(T):
+  A = []
+  for _ in range(3):
+    tmp = f.readline().strip().split()
+    A.append(tmp)
+  _ = f.readline()
+  ans = check(A)
+  print(ans)
 ```
